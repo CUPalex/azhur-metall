@@ -1,0 +1,245 @@
+body {
+  background-image: url("../img/pixel_weave.png");
+  background-repeat: repeat;
+}
+.navbar{
+  background-color: #491217;
+  .navbar-brand{
+    color: #e6a756;
+  }
+  .navbar-nav{
+    .nav-item{
+      color: rgba(255, 255, 255, 0.7);
+      font-weight: 600;
+      line-height: 2rem;
+    }
+    .nav-item .active .nav-link{
+      color: #e6a756;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+  }
+  .navbar .navbar-nav .nav-item .nav-link:hover {
+    color: rgba(255, 255, 255, 0.4);
+  }
+  .navbar .navbar-nav .nav-item.active .nav-link:hover {
+    color: #e6a756;
+  }
+}
+
+.site-heading {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.site-heading .site-heading-upper {
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #08395B;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.site-heading .site-heading-lower {
+  font-size: 5rem;
+  font-weight: 100;
+  line-height: 4rem;
+  color: #032239;
+  font-family: 'Marck Script', sans-serif;
+}
+.site-heading-left-phone{
+  display: block;
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: #032239;
+}
+.site-heading-left-town{
+  display: block;
+  margin-bottom: 0;
+  font-size: 2rem;
+  color: #032239;
+}
+
+.site-heading-button{
+  margin-top: 5rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #032239;
+}
+.heading{
+  display: block;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #032239;
+}
+hr{
+  border-width: 0.15em;
+  border-color: #1c7430;
+  margin-bottom: 1.5em;
+}
+.quote{
+  font-size: 1.5rem;
+}
+.control-label{
+  margin-left: 0.3em;
+  color: #3B4200;
+  font-size: 1.5rem;
+}
+.form-control:focus{
+  border-color: #BAE888;
+  box-shadow: 0 0 0 0.2rem #B2FFA3;
+}
+.btn-order{
+  background-color: #045872;
+  color: white;
+  margin-left: 0.3em;
+  font-size: 1.5rem;
+}
+a:hover{
+  text-decoration: none;
+}
+
+.catalog-item-text{
+  padding: 2em;
+  background: #9DA269;
+  color: #032239;
+  text-decoration: none;
+  display: block;
+  .catalog-item-first-heading{
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .catalog-item-second-heading{
+    font-size: 1rem;
+    font-weight: 100;
+  }
+  .catalog-item-first-heading:hover{
+    color: #045872;
+  }
+}
+.catalog-item-img{
+  width:75%;
+}
+@media (min-width: 992px){
+  .catalog-item-text{
+    width: 30em;
+    .catalog-item-first-heading{
+      font-size: 2.5rem;
+      font-weight: 800;
+    }
+    .catalog-item-second-heading{
+      font-size: 1.5rem;
+      font-weight: 100;
+    }
+  }
+  .catalog-item-right{
+    position: relative;
+    .catalog-item-text{
+      position: absolute;
+      right: 45%;
+      top: 25%;
+    }
+    .catalog-item-img{
+      float: right;
+      width:50%;
+    }
+  }
+  .catalog-item-left{
+    position: relative;
+    .catalog-item-text{
+      position: absolute;
+      left: 35%;
+      top: 25%;
+    }
+    .catalog-item-img{
+      float: left;
+      margin-left: 0;
+      width:50%;
+    }
+  }
+}
+.contact-heading{
+  font-size: 1.5rem;
+  color: #032239;
+  font-weight: 600;
+}
+.contact-text{
+  font-size: 1.2rem;
+  font-style: italic;
+}
+.modal-content{
+  width: 800px;
+}
+.modal-heading{
+  font-size: 2rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #032239;
+}
+.modal-item-content{
+  font-size: 1.3rem;
+}
+
+.modal-item-name{
+  font-size: 1.5rem;
+}
+
+.btn-modal-item{
+  background-color: #1c7430;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.breadcrumb{
+  background-color: inherit;
+  .breadcrumb-item{
+    color: #032239;
+    text-decoration: underline;
+  }
+  .breadcrumb-item.active{
+    text-decoration: none;
+  }
+  .breadcrumb-item:hover{
+    color: #045872;
+  }
+  .breadcrumb-item.active:hover{
+    color: #032239;
+  }
+}
+
+.card{
+  border-width: 0.05em;
+  border-color: #1c7430;
+  .card-title{
+    color: #000000;
+  }
+  .card-text{
+    color: #000000;
+  }
+}
+
+.media-object{
+  display: block;
+  width: 5em;
+  margin:0 2em 0 0;
+  padding:0;
+}
+.comment{
+  padding: 1em;
+  background-color: #fff;
+  margin: 1em 0 1em 0;
+}
+.form-label{
+  margin-left: 0.2em;
+}
